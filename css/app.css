@@ -12,9 +12,11 @@
 	margin: auto;
 	width: 30%;
 	height: 20%;
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0, 0, 0, 0.2);
 }
 
 .flip {
-	background-color: rgba(0,0,0,0.2);
+	background-image: url("img/rocket.png");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
