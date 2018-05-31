@@ -1,0 +1,16 @@
+.container {
+	display: flex;
+	justify-content: space-evenly;
+	flex-flow: row wrap;
+	width: 90%;
+	height: 80vh;
+	margin: auto;
+	margin-top: 15vh;
+}
+
+.card {
+	margin: auto;
+	width: 30%;
+	height: 20%;
+	background-color: rgba(0,0,0,0.7);
+}
