@@ -3,9 +3,9 @@
 	justify-content: space-evenly;
 	flex-flow: row wrap;
 	width: 90%;
-	height: 80vh;
+	height: 400px;
 	margin: auto;
-	margin-top: 15vh;
+	margin-top: 25%;
 }
 
 .card {
