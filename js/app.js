@@ -10,3 +10,27 @@ document.addEventListener("DOMContentLoaded", function() {
 		};
 	});
 })
+
+function shuffleCards() {
+	// shuffle the cards
+};
+
+function timer() {
+	// create a working timer
+};
+
+function moveCounter() {
+	// keeps track of your moves
+};
+
+function starRating() {
+	// create a star rating system
+};
+
+function showInstructions() {
+	// show the instructions at the beginning of the game
+};
+
+function showEndSplash() {
+	// show the end game page
+};
