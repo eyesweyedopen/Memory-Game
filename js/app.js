@@ -1,3 +1,4 @@
+// card array to store cards for shuffling and adding
 const cards = {
 	content: []
 };
@@ -27,11 +28,12 @@ function cardGenerator() {
 	};
 
 	shuffleCards();
+
+	// adds cards to the page
 	for (let i = 0; i < cards.content.length; i++) {
 		frag.appendChild(cards.content[i]);
 	};
-
-
+	
 	document.querySelector(".container").appendChild(frag);
 };
 
