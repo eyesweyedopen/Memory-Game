@@ -1,6 +1,9 @@
-
+const cards = {
+	content: []
+};
 
 document.addEventListener("DOMContentLoaded", function() {
+	cardGenerator();
 	document.querySelector(".container").addEventListener("click", function(e){
 		e.preventDefault();
 		e.stopPropagation();
@@ -11,8 +14,23 @@ document.addEventListener("DOMContentLoaded", function() {
 	});
 })
 
+function cardGenerator() {
+
+	const frag = document.createDocumentFragment();
+
+	let i = 0;
+	while ( i < 12 ) {
+		card = document.createElement("div");
+		card.classList.add("card");
+		cards.content.push(card);
+		frag.appendChild(card);
+		i++;
+	};
+
+	document.querySelector(".container").appendChild(frag);
+};
+
 function shuffleCards() {
-	// shuffle the cards
 };
 
 function timer() {
