@@ -16,6 +16,10 @@
 	box-shadow: 5px 5px 5px #999999;
 }
 
+.card:hover {
+	box-shadow: 3px 3px 3px #999999;
+}
+
 .flip {
 	background-color: rgba(0, 0, 0, 0.2);
 	background-image: url("../img/rocket.png");
