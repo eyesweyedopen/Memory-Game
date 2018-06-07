@@ -23,14 +23,20 @@ function cardGenerator() {
 		card = document.createElement("div");
 		card.classList.add("card");
 		cards.content.push(card);
-		frag.appendChild(card);
 		i++;
 	};
+
+	shuffleCards();
+	for (let i = 0; i < cards.content.length; i++) {
+		frag.appendChild(cards.content[i]);
+	};
+
 
 	document.querySelector(".container").appendChild(frag);
 };
 
 function shuffleCards() {
+	cards.content.sort(function(a, b){return 0.5 - Math.random()});
 };
 
 function timer() {
