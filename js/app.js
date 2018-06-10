@@ -37,6 +37,7 @@ function timer() {
 	}, 1000);
 };
 
+// to format the timer
 function pad(num) {
 	num = "0".repeat(2 - num.toString().length) + num.toString();
 	return num;
